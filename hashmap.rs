@@ -36,7 +36,7 @@ fn main() {
     // field_name and field_value are invalid at this point, try using them and
     // see what compiler error you get!
     
-    // also apparently references are allowed but there's something about lifetimes idk
+    // also apparently references are allowed in a hash map but there's something about lifetimes idk
 
     // the usual - double assignment overwrites
     let mut scores = HashMap::new();
@@ -50,7 +50,7 @@ fn main() {
     let mut scores = HashMap::new();
     scores.insert(String::from("Blue"), 10);
 
-    // .entry().or_insert() will insert the value if it's not there already and returns a reference to whatever value is there now
+    // .entry().or_insert() will insert the value if it's not there already and returns a reference to whatever value is there now (🤯)
     scores.entry(String::from("Yellow")).or_insert(50);
     scores.entry(String::from("Blue")).or_insert(50);
 

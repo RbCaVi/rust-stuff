@@ -23,7 +23,7 @@ fn main() {
     };
     
     // this is a common problem in most or all standard
-    // text based programming languages - branching structures are difficult to represent
+    // text based programming languages (🤯) - branching structures are difficult to represent
     // the linear nature of the code also restricts the complexity of structures
     // most of the time you probably don't need weird branching and rejoining
     // of code paths, but when you do, most languages force you to use either several
@@ -31,7 +31,7 @@ fn main() {
     // the restriction of code to one dimension forces branching structures to have at least one branch far
     // from it's root, which makes code with lots of branches difficult to read
     
-    // this is why i have an idea
+    // this is why i have an idea (🤯)
     // actually this is not the reason but my idea might solve this problem
     // but like what if you wrote programs with nodes and wires
     // in a 2d or 3d editor
@@ -87,7 +87,7 @@ fn read_username_from_file() -> Result<String, io::Error> {
 
 fn read_username_from_file() -> Result<String, io::Error> {
     // NEW THING!
-    // thing? is an early return on error
+    // thing? is an early return on error (🤯🤯🤯)
     // it can propagate Result and Option
     // and also FromResidual, whatever that is
     // if thing is Result::Err(), then it immediately returns it
@@ -113,7 +113,7 @@ fn read_username_from_file() -> Result<String, io::Error> {
 }
 
 fn read_username_from_file() -> Result<String, io::Error> {
-    // and they have a library function just for this specific use case
+    // and they have a library function just for this specific use case (🤯🤯🤯)
     // it's a thing i do a lot
     // like why doesn't js have this
     // even with python you have to use either with open() as f: or f = open(); f.close()
